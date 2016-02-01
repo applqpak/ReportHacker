@@ -60,3 +60,11 @@
                 $p->sendMessage(TF::YELLOW . $sender_name . " reported " . $name . " for using hacks/mods!");
 
               }
+
+            }
+
+            $player->sendMessage(TF::YELLOW . $sender_name . " has reported you for using hacks/mods!");
+
+            return true;
+
+          }
