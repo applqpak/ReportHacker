@@ -1,0 +1,13 @@
+name: ReportHacker
+version: 1.0.0
+author: applqpak
+api: [1.0.0]
+main: ReportHacker\Main
+commands:
+  reporthacker:
+    description: Report A Hacker/Modder!
+    usage: "/reporthacker <player>"
+    permission: reporthacker.command
+permissions:
+  reporthacker.command:
+    default: true
