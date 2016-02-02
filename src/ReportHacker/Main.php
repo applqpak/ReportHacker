@@ -49,6 +49,8 @@
 
             }
 
+            $sender->sendMessage(TF::GREEN . "Sent report to all op(s).");
+
             return true;
 
           } else {
@@ -64,6 +66,8 @@
             }
 
             $player->sendMessage(TF::YELLOW . $sender_name . " has reported you for using hacks/mods!");
+
+            $sender->sendMessage(TF::GREEN . "Sent report to all op(s).");
 
             return true;
 
